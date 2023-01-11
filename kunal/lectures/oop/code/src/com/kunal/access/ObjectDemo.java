@@ -1,4 +1,4 @@
-package com.kunal.access;
+package Java.kunal.lectures.oop.code.src.com.kunal.access;
 
 public class ObjectDemo {
 
