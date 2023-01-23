@@ -7,7 +7,7 @@ public class Triangle {
 //        triangle2(4, 0);
         int[] arr = {1, 4, 3, 5};
         selection(arr, arr.length, 0, 0);
-        System.out.println(Arrays.toString(arr));
+        System.out.println(MyArray.toString(arr));
     }
 
     static void triangle2(int r, int c) {

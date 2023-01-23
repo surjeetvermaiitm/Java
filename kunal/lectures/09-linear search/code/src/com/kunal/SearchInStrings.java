@@ -8,7 +8,7 @@ public class SearchInStrings {
         char target = 'u';
 //        System.out.println(search(name, target));
 
-        System.out.println(Arrays.toString(name.toCharArray()));
+        System.out.println(MyArray.toString(name.toCharArray()));
     }
 
 

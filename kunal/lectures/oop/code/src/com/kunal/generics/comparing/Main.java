@@ -13,7 +13,7 @@ public class Main {
 
         Student[] list = {kunal, rahul, arpit, karan, sachin};
 
-        System.out.println(Arrays.toString(list));
+        System.out.println(MyArray.toString(list));
 //        Arrays.sort(list, new Comparator<Student>() {
 //            @Override
 //            public int compare(Student o1, Student o2) {
@@ -21,9 +21,9 @@ public class Main {
 //            }
 //        });
 
-        Arrays.sort(list, (o1, o2) -> -(int)(o1.marks - o2.marks));
+        MyArray.sort(list, (o1, o2) -> -(int)(o1.marks - o2.marks));
 
-        System.out.println(Arrays.toString(list));
+        System.out.println(MyArray.toString(list));
 
 //        if (kunal.compareTo(rahul) < 0) {
 //            System.out.println(kunal.compareTo(rahul));

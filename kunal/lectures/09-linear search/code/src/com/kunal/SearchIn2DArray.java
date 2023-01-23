@@ -12,7 +12,7 @@ public class SearchIn2DArray {
         };
         int target = 56;
         int[] ans = search(arr,target); // format of return value {row, col}
-        System.out.println(Arrays.toString(ans));
+        System.out.println(MyArray.toString(ans));
 
         System.out.println(max(arr));
 

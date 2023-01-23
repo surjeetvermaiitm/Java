@@ -45,7 +45,7 @@ public class MultiDimension {
 //        }
 
         for(int[] a : arr) {
-            System.out.println(Arrays.toString(a));
+            System.out.println(MyArray.toString(a));
         }
     }
 }

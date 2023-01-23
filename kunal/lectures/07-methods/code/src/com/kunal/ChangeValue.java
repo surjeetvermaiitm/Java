@@ -7,7 +7,7 @@ public class ChangeValue{
         // create an array
         int[] arr = {1, 3, 2, 45, 6};
         change(arr);
-        System.out.println(Arrays.toString(arr));
+        System.out.println(MyArray.toString(arr));
     }
 
     static void change(int[] nums) {

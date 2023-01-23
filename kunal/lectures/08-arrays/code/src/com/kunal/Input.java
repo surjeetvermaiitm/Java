@@ -40,11 +40,11 @@ public class Input {
             str[i] = in.next();
         }
 
-        System.out.println(Arrays.toString(str));
+        System.out.println(MyArray.toString(str));
 
         // modify
         str[1] = "kunal";
 
-        System.out.println(Arrays.toString(str));
+        System.out.println(MyArray.toString(str));
     }
 }

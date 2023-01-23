@@ -62,7 +62,7 @@ public class WildcardExample<T extends Number> {
     @Override
     public String toString() {
         return "CustomGenArrayList{" +
-                "data=" + Arrays.toString(data) +
+                "data=" + MyArray.toString(data) +
                 ", size=" + size +
                 '}';
     }

@@ -54,7 +54,7 @@ public class CustomArrayList {
     @Override
     public String toString() {
         return "CustomArrayList{" +
-                "data=" + Arrays.toString(data) +
+                "data=" + MyArray.toString(data) +
                 ", size=" + size +
                 '}';
     }

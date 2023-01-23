@@ -10,11 +10,11 @@ public class VarArgs {
     }
 
     static void demo(int ...v) {
-        System.out.println(Arrays.toString(v));
+        System.out.println(MyArray.toString(v));
     }
 
     static void demo(String ...v) {
-        System.out.println(Arrays.toString(v));
+        System.out.println(MyArray.toString(v));
     }
 
     static void multiple(int a, int b, String ...v) {
@@ -22,6 +22,6 @@ public class VarArgs {
     }
 
     static void fun(int ...v) {
-        System.out.println(Arrays.toString(v));
+        System.out.println(MyArray.toString(v));
     }
 }

@@ -9,11 +9,11 @@ public class Main {
 
         Human twin = (Human)kunal.clone();
         System.out.println(twin.age + " " + twin.name);
-        System.out.println(Arrays.toString(twin.arr));
+        System.out.println(MyArray.toString(twin.arr));
 
         twin.arr[0] = 100;
 
-        System.out.println(Arrays.toString(twin.arr));
-        System.out.println(Arrays.toString(kunal.arr));
+        System.out.println(MyArray.toString(twin.arr));
+        System.out.println(MyArray.toString(kunal.arr));
     }
 }

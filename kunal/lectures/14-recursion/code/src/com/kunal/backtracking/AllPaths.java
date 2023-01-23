@@ -53,7 +53,7 @@ public class AllPaths {
         if (r == maze.length - 1 && c == maze[0].length - 1) {
             path[r][c] = step;
             for(int[] arr : path) {
-                System.out.println(Arrays.toString(arr));
+                System.out.println(MyArray.toString(arr));
             }
             System.out.println(p);
             System.out.println();

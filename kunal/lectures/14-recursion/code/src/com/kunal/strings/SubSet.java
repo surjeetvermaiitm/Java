@@ -28,7 +28,7 @@ public class SubSet {
     }
 
     static List<List<Integer>> subsetDuplicate(int[] arr) {
-        Arrays.sort(arr);
+        MyArray.sort(arr);
         List<List<Integer>> outer = new ArrayList<>();
         outer.add(new ArrayList<>());
         int start = 0;
